@@ -1,0 +1,13 @@
+﻿@if (TempData["success"] != null)
+{
+    <script>
+    alert(@TempData["success"])
+    </script>
+}
+
+@if (TempData["error"] != null)
+{
+    <script>
+    alert(@TempData["error"])
+    </script>
+}
